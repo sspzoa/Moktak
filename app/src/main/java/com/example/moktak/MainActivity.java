@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
         auto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                VibrationEffect vibe = VibrationEffect.createOneShot(40, 255);
+                VibrationEffect vibe = VibrationEffect.createOneShot(50, 255);
                 vibrator.vibrate(vibe);
 
                 i++;
