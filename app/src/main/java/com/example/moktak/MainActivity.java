@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onAutoClick() {
-        VibrationEffect vibe = VibrationEffect.createOneShot(50, 255);
+        VibrationEffect vibe = VibrationEffect.createOneShot(40, 255);
         vibrator.vibrate(vibe);
 
         i++;
